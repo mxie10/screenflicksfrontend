@@ -1,0 +1,386 @@
+{
+    "heroSection": [
+        {
+            "title":"Frozen",
+            "imageSrc":"/images/hero/frozen.jpg",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"]
+        },
+        {
+            "title":"The Godfather",
+            "imageSrc":"https://s3.us-west-2.amazonaws.com/files.catholicworldreport.com/2022/04/thegodfather1972_sg-678x375.jpg",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"]
+        },
+        {
+            "title":"The StepDaughter",
+            "imageSrc":"https://m.media-amazon.com/images/M/MV5BMjhkZmEzNmEtNzEwNy00MTM3LWEwYjQtZTRmOWI1ZDAzN2FjXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"]
+        },
+        {
+            "title":"Colombiana",
+            "imageSrc":"https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUcBUZori7FOxwIaZn52mBtnYvnhPWj99ALlivxbGQi3kvUd1vzsBIbybFon5a1xb0c1A07ZwiM6BYZIrqLyOB2AxHlNy3d4uzbw.jpg?r=69d",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"]
+        },
+        {
+            "title":"Shaw Shank Redemption",
+            "imageSrc":"https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15987_k_h8_ad.jpg",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"]
+        }
+    ],
+    "featuredMovie": [
+        {
+            "title":"SALT",
+            "imageSrc":"https://canvas.tubitv.com/opts/cndzGHVwhl-XRw==/4373affd-39c2-4c47-9738-cdfbdf863c27/CJgDEMcEOgUxLjAuMQ==",
+            "year":2023,
+            "length":{"hour":1,"min":29},
+            "type":["Drama","Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "price":"9.99"
+        },
+        {
+            "title":"Killer Cases",
+            "imageSrc":"https://canvas.tubitv.com/opts/7wB9-E81A-LO9Q==/a3386cc1-dc80-4336-aa1c-800723245fc5/CJgDEMcEOgUxLjAuMQ==",
+            "year":2021,
+            "length":{"hour":2,"min":29},
+            "type":["Drama","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "price":"9.99"
+        },
+        {
+            "title":"The Prince",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/U2mBZ6RKrCTkVw==/7678df40-eb85-49f6-a3d7-7112de33682e/CJgDEMcEOgUxLjAuMQ==",
+            "year":2022,
+            "length":{"hour":1,"min":42},
+            "type":["Drama","Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test."
+        },
+        {
+            "title":"Priest",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/3A4o3CL39mRuTQ==/6d0eb7dd-f2b6-402f-aa73-eeb7b515da00/CJgDEMcEOgUxLjAuMQ==",
+            "year":2023,
+            "length":{"hour":2,"min":2},
+            "type":["Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test."
+        },
+        {
+            "title":"Love You to Death",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/fHJ7VcO8dNOPJw==/e1ca86cf-09b7-49e2-a41a-67f87f07dced/CJgDEMcEOgUxLjAuMQ==",
+            "year":2020,
+            "length":{"hour":2,"min":12},
+            "type":["Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test."
+        },
+        {
+            "title":"Dune",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/vcxb1VKPtd3q_Q==/911afdc9-52be-4023-b948-bc59ccb9cff8/CJgDEMcEOgUxLjAuMQ==",
+            "year":2022,
+            "length":{"hour":1,"min":39},
+            "type":["Action","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test."
+        },
+        {
+            "title":"8 Mile",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/U08m3JHe1FZBbg==/8b1850b7-fa19-47da-b170-863857895638/CJgDEMcEOgUxLjAuMQ==",
+            "year":2022,
+            "length":{"hour":1,"min":32},
+            "type":["cartoon","Action","Sci-Fi"],
+            "rate":"PG-7",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test."
+        }
+    ],
+    "tvShows": [
+        {
+            "title":"Red Shock",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/yftEbS6ttdrHZA==/1055cbe5-cecb-4ae3-837b-5c3a78b09d76/CJgDEMcEOgUxLjAuMQ==",
+            "category":"tvshow",
+            "year":2023,
+            "length":{"hour":1,"min":29},
+            "type":["Drama","Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Cops",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/8B0xFSubsdRxEg==/579177ba-dbdd-4938-a73b-6c547b7ac3c7/CJgDEMcEOgUxLjAuMQ==",
+            "category":"tvshow",
+            "year":2021,
+            "length":{"hour":2,"min":29},
+            "type":["Drama","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Killer Cases",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/7wB9-E81A-LO9Q==/a3386cc1-dc80-4336-aa1c-800723245fc5/CJgDEMcEOgUxLjAuMQ==",
+            "category":"tvshow",
+            "year":2022,
+            "length":{"hour":1,"min":42},
+            "type":["Drama","Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"The FBI Files",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/mB9isL8itZDBbg==/d60b5234-fcc2-4577-9ff0-9f1e5aeee645/CJgDEMcEOgUxLjAuMQ==",
+            "category":"tvshow",
+            "year":2023,
+            "length":{"hour":2,"min":2},
+            "type":["Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"MidSomer Murders",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/IuOW_6P1BAvBrQ==/2be76e0b-beaa-4639-bae9-0f2c981f0674/CJgDEMcEOgUxLjAuMQ==",
+            "category":"tvshow",
+            "year":2020,
+            "length":{"hour":2,"min":12},
+            "type":["Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"The Dirty D",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/ga_KLQPRjlKwpA==/4df30023-9480-4386-ba47-0c95dbc55a60/CJgDEMcEOgUxLjAuMQ==",
+            "category":"tvshow",
+            "year":2022,
+            "length":{"hour":1,"min":39},
+            "type":["Action","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Rush",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/jhO1nRXEbmvE0g==/3904be3d-c0dc-4ad7-9858-ad28c8c9d6b1/CJgDEMcEOgUxLjAuMQ==",
+            "category":"tvshow",
+            "year":2022,
+            "length":{"hour":1,"min":32},
+            "type":["cartoon","Action","Sci-Fi"],
+            "rate":"PG-7",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        }
+    ],
+    "movies": [
+        {
+            "title":"SALT",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/cndzGHVwhl-XRw==/4373affd-39c2-4c47-9738-cdfbdf863c27/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2023,
+            "length":{"hour":1,"min":29},
+            "type":["Drama","Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Killer Cases",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/7wB9-E81A-LO9Q==/a3386cc1-dc80-4336-aa1c-800723245fc5/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2021,
+            "length":{"hour":2,"min":29},
+            "type":["Drama","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"The Prince",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/U2mBZ6RKrCTkVw==/7678df40-eb85-49f6-a3d7-7112de33682e/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2022,
+            "length":{"hour":1,"min":42},
+            "type":["Drama","Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Priest",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/3A4o3CL39mRuTQ==/6d0eb7dd-f2b6-402f-aa73-eeb7b515da00/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2023,
+            "length":{"hour":2,"min":2},
+            "type":["Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Love You to Death",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/fHJ7VcO8dNOPJw==/e1ca86cf-09b7-49e2-a41a-67f87f07dced/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2020,
+            "length":{"hour":2,"min":12},
+            "type":["Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Dune",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/vcxb1VKPtd3q_Q==/911afdc9-52be-4023-b948-bc59ccb9cff8/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2022,
+            "length":{"hour":1,"min":39},
+            "type":["Action","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"8 Mile",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/U08m3JHe1FZBbg==/8b1850b7-fa19-47da-b170-863857895638/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2022,
+            "length":{"hour":1,"min":32},
+            "type":["cartoon","Action","Sci-Fi"],
+            "rate":"PG-7",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Sonic Boom",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/qJjxzRbiPeVJPg==/3e9d661d-2c42-4bc9-b098-ce04f0592d1c/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2023,
+            "length":{"hour":1,"min":29},
+            "type":["Drama","Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Super Wings",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/KrX6kVun6UsQqg==/1cbb5f68-b68d-4415-9c3e-21ee35c6c595/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2021,
+            "length":{"hour":2,"min":29},
+            "type":["Drama","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Son of Big Foot",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/5jZZ0TdLlftrww==/7a0122ff-9ba5-40c0-96df-fa1d60ed3aa3/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2022,
+            "length":{"hour":1,"min":42},
+            "type":["Drama","Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Cats",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/H70UgfRoqj9SZg==/be6a20ce-3dad-4be0-81b7-8a5056d231fa/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2023,
+            "length":{"hour":2,"min":2},
+            "type":["Horror","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+        },
+        {
+            "title":"Strawberry",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/FD8W1EiHoyta_g==/0130aeda-d020-4efd-be0c-a3de69fef500/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2020,
+            "length":{"hour":2,"min":12},
+            "type":["Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"true"
+
+        },
+        {
+            "title":"DreamBuilders",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/hbT_P3NzGZzgdw==/5a627b5f-2238-4d07-a8f7-7820c0c98e52/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2022,
+            "length":{"hour":1,"min":39},
+            "type":["Action","Sci-Fi"],
+            "rate":"PG-13",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"false"
+        },
+        {
+            "title":"Maya the Bee",
+            "price":"9.99",
+            "imageSrc":"https://canvas.tubitv.com/opts/WttGy8--_VsCZQ==/2482fbd9-49c7-4b13-9692-3111ae9d2cc8/CJgDEMcEOgUxLjAuMQ==",
+            "category":"movie",
+            "year":2022,
+            "length":{"hour":1,"min":32},
+            "type":["cartoon","Action","Sci-Fi"],
+            "rate":"PG-7",
+            "actors":["Mamoru Miyano","Maaya Sakamoto","Kana Hanazawa","Hiroshi Kamiya"],
+            "description":"When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
+            "featured":"false"
+        }
+    ]
+  }
