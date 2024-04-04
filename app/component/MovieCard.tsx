@@ -5,7 +5,7 @@ import MovieCardTypes from '../interfaces/MovieCardProps';
 
 const MovieCard: React.FC<MovieCardTypes> = (props) => {
 
-    const { title, imageSrc, year, length, type, rate, souce, onClick} = props;
+    const { title, imageSrc, year, type, rate, souce, onClick, hideDetails} = props;
 
     const [ifShowPlayIcon, setIfShowPlayIcon] = useState(false);
 
@@ -73,20 +73,7 @@ const MovieCard: React.FC<MovieCardTypes> = (props) => {
                 <div className='text-md sm:text-md md:text-ld font-bold'>{title}</div>
                 <div className='flex flex-row justify-between'>
                     <div className='text-xs font-semibold hidden md:block'>
-                        {year} - {length.hour} hr {length.min} min
-                    </div>
-                    <div
-                        className='
-                            bg-gray-600 
-                            text-white 
-                            rounded-lg 
-                            px-1 
-                            text-xs
-                            flex
-                            items-center
-                            justify-center
-                        '>
-                        {rate}
+                        {year} - 1 hr 47 min
                     </div>
                 </div>
                 <div

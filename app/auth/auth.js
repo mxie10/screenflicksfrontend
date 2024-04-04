@@ -27,3 +27,28 @@ export const register = async (firstName, lastName, password, email) => {
         return "error";
       });
   }
+
+  export const login = (email, password) => {
+
+    return fetch(`${url}/user`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        email: email,
+        password: password
+      })
+    })
+      .then((response) => response.json())
+      .then(res => {
+        if (res.message === 'success') {
+          return res;
+        }
+        return "error";
+      })
+      .catch((error) => {
+        console.error(error);
+        return "error";
+      });
+  }

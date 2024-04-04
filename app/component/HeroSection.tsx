@@ -25,18 +25,6 @@ const HeroSection = () => {
   const [slideIndex, setSlideIndex] = useState(0);
   const { heros } = useHeros();
 
-
-  // useEffect(() => {
-  //   const timeoutId = setTimeout(() => {
-  //     setSlideIndex((prevIndex) => {
-  //       const newIndex = (prevIndex + 1) % heros.length;
-  //       scroll(newIndex);
-  //       return newIndex;
-  //     });
-  //   }, 10000);
-  //   return () => clearTimeout(timeoutId);
-  // }, [slideIndex, heros.length]);
-
   const scroll = (index: number) => {
     setSlideIndex(index % heros.length);
     parallax.current?.scrollTo(index % heros.length)

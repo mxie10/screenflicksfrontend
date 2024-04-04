@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react';
 import { Inter } from "next/font/google";
 import { FaAlignJustify } from "react-icons/fa";
 import useSideBar from './hooks/useSidebar';
@@ -10,20 +11,29 @@ import Footer from "./component/Footer";
 import LoginModal from "./component/modals/LoginModal";
 import RegisterModal from "./component/modals/RegisterModal";
 import SearchBar from "./component/SearchBar";
+import { ContextProvider } from "./context/useContext";
+import SearchResultModal from './component/modals/SearchResultModal';
+import { useDebounce } from './hooks/useDebounce';
+import { useSearchMovies } from './hooks/useSearchMovie';
 
 const inter = Inter({ subsets: ["latin"] });
 
 interface LayoutBodyProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 const LayoutBody: React.FC<LayoutBodyProps> = ({ children }) => {
 
   const sidebarModel = useSideBar();
+  const [searchParam, setSearchParam] = useState<String>('');
+  const debouncedParam = useDebounce(searchParam, 1000);
+  const {searchResult} = useSearchMovies(debouncedParam);
 
   const toggleSidebar = () => {
     sidebarModel.onOpen();
   }
+
+  console.log('searchResult is:',searchResult);
 
   const ToggleIcon = () => {
     return (
@@ -45,22 +55,22 @@ const LayoutBody: React.FC<LayoutBodyProps> = ({ children }) => {
         >
           <FaAlignJustify size={25} />
         </div>
-        <SearchBar/>
       </div>
     )
   }
 
   return (
     <div className="w-full flex flex-col relative z-10 min-h-screen bg-neutral-200">
-      <LoginModal/>
-      <RegisterModal/>
+      <LoginModal />
+      <RegisterModal />
       <ToggleIcon />
       <SideBar />
-      <NavBar />
+      <NavBar setSearchParam = {setSearchParam}/>
+      <SearchResultModal searchResult={searchResult}/>
       <div className="">
         {children}
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
@@ -73,7 +83,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className} style={{ minHeight: '100vh' }}>
-        <LayoutBody children={children} />
+        <ContextProvider>
+          <LayoutBody 
+            children={children} 
+          />
+        </ContextProvider>
       </body>
     </html>
   );

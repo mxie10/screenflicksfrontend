@@ -83,7 +83,7 @@ const RegisterModal = () => {
                 onChangeValue={text => setEmail(text)}
             />
             {/* Hello Modal Body */}
-
+            <div className='text-red-600 text-center mt-3'>{message}</div>
         </div>
     )
 

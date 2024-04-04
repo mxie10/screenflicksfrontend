@@ -13,9 +13,6 @@ const TVShows = () => {
     const movieContainerRef = useRef<HTMLDivElement>(null);
     const [canScrollLeft, setCanScrollLeft] = useState(false);
     const [canScrollRight, setCanScrollRight] = useState(false);
-    
-    console.log("canScrollLeft:",canScrollLeft);
-    console.log("canScrollRight:",canScrollRight);
 
     useEffect(() => {
         const container = movieContainerRef.current;

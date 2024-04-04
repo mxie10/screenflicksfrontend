@@ -1,10 +1,12 @@
-import React,{ useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
+
+const url = process.env.NEXT_PUBLIC_API_URL;
 
 export const useHeros = () => {
     const [heros, setHeros] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:3000/heroSection')
+        fetch(`${url}/heros`)
         .then(res=>res.json())
         .then(data=>{
             setHeros(data);

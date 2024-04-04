@@ -14,9 +14,6 @@ const FeaturedFilms = () => {
     const movieContainerRef = useRef<HTMLDivElement>(null);
     const [canScrollLeft, setCanScrollLeft] = useState(false);
     const [canScrollRight, setCanScrollRight] = useState(false);
-    
-    console.log("canScrollLeft:",canScrollLeft);
-    console.log("canScrollRight:",canScrollRight);
 
     useEffect(() => {
         const container = movieContainerRef.current;
@@ -106,6 +103,7 @@ const FeaturedFilms = () => {
                                     type={item.type}
                                     rate={item.rate}
                                     onClick={() => handleCardClick(item)}
+                                    hideDetails={false}
                                 />
                             </div>
                         )

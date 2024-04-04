@@ -1,38 +1,53 @@
 'use client';
 
-import React from 'react';
+import React, { useContext,useEffect,useState } from 'react';
 import { FaSearch } from "react-icons/fa";
 import { useRouter } from 'next/navigation';
 import useLoginModal from '../hooks/useLoginModal';
 import SearchBar from './SearchBar';
+import { Context,ContextType } from '../context/useContext';
 
 const menu = [
     {
         title: 'Movies',
-        link:'/movie'
+        link: '/movie'
     },
     {
         title: 'TV',
-        link:'/tvshows'
+        link: '/tvshows'
     },
     {
         title: 'Anime',
-        link:''
+        link: ''
     },
     {
         title: 'Free',
-        link:''
+        link: ''
     }
 ]
 
-const NavBar = () => {
+//setSearchParam
+
+interface NavBarProps  {
+    setSearchParam:(value:string) => void;
+}
+
+const NavBar:React.FC<NavBarProps> = (props) => {
+
+    const {setSearchParam} = props;
+
+    const { user,setUser } = useContext<any>(Context!);
 
     const router = useRouter();
     const loginModal = useLoginModal();
 
-    const openLoginModal =() => {
+    const openLoginModal = () => {
         loginModal.onOpen();
-        console.log('loginModal.isOpen?',loginModal.isOpen);
+    }
+
+    const logout = () => {
+        setUser(null);
+        router.push('/');
     }
 
     return (
@@ -52,33 +67,43 @@ const NavBar = () => {
       '
         >
             <div className='flex flex-row justify-center items-center gap-5'>
-                <div 
+                <div
                     className='font-bold text-xl text-cyan-700 cursor-pointer'
-                     onClick={() => router.push('/')}>
-                        Screenflicks
+                    onClick={() => router.push('/')}>
+                    Screenflicks
                 </div>
-                {menu && menu.map((item)=>{
+                {menu && menu.map((item) => {
                     return (
-                        <div 
-                            className='text-md cursor-pointer font-semibold font-serif' 
+                        <div
+                            className='text-md cursor-pointer font-semibold font-serif'
                             key={item.title}
-                            onClick={()=>router.push(item.link)}
+                            onClick={() => router.push(item.link)}
                         >
                             {item.title}
                         </div>
                     )
                 })}
-                <SearchBar hide={true}/>
+                <SearchBar setSearchParam = {setSearchParam}/>
             </div>
-            <div className='flex flex-row justify-center items-center gap-5'>
-            <div className='text-md cursor-pointer font-semibold font-serif'>Redeem</div>
-                <div 
-                    className='text-md cursor-pointer font-semibold font-serif' 
-                    onClick={openLoginModal}
-                >
-                    Sign In
-                </div>
-            </div>
+            {
+                user ?  
+                    <div className='flex flex-row justify-center items-center gap-5'>
+                        <div
+                            className='text-md cursor-pointer font-semibold font-serif'
+                            onClick={logout}
+                        >
+                            Log out
+                        </div>
+                    </div> : 
+                    <div className='flex flex-row justify-center items-center gap-5'>
+                        <div
+                            className='text-md cursor-pointer font-semibold font-serif'
+                            onClick={openLoginModal}
+                        >
+                            Sign In
+                        </div>
+                    </div>
+            }
         </div>
     )
 }

@@ -1,9 +1,9 @@
-type MoveLength = {
+export type MoveLength = {
     hour: number;
     min: number;
 }
 
-interface MovieCardProps {
+export interface MovieCardProps {
     title: string;
     imageSrc: string;
     year: number;
@@ -15,6 +15,7 @@ interface MovieCardProps {
     description?:string;
     onClick?:() => void;
     actors?:Array<string>;
+    hideDetails?:boolean;
 }
 
 export default MovieCardProps;
