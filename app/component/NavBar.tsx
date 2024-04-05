@@ -87,12 +87,22 @@ const NavBar:React.FC<NavBarProps> = (props) => {
             </div>
             {
                 user ?  
-                    <div className='flex flex-row justify-center items-center gap-5'>
-                        <div
-                            className='text-md cursor-pointer font-semibold font-serif'
-                            onClick={logout}
-                        >
-                            Log out
+                    <div className='flex flex-row gap-3'>                     
+                        <div className='flex flex-row justify-center items-center gap-5'>
+                            <div
+                                className='text-md cursor-pointer font-semibold font-serif'
+                                onClick={() => router.push('/accountInfo')}
+                            >
+                                Dashboard
+                            </div>
+                        </div>
+                        <div className='flex flex-row justify-center items-center gap-5'>
+                            <div
+                                className='text-md cursor-pointer font-semibold font-serif'
+                                onClick={logout}
+                            >
+                                Log out
+                            </div>
                         </div>
                     </div> : 
                     <div className='flex flex-row justify-center items-center gap-5'>

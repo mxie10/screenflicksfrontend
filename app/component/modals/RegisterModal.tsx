@@ -1,5 +1,5 @@
 'use client'
-import { useCallback, useState } from 'react';
+import { useCallback, useContext, useEffect, useState } from 'react';
 import {useRouter} from 'next/navigation';
 import useRegisterModal from '@/app/hooks/useRegisterModal';
 import Modal from './Modal';
@@ -7,9 +7,11 @@ import Heading from '../Heading';
 import useLoginModal from '@/app/hooks/useLoginModal';
 import Input from '../inputs/InputAlt';
 import {register} from '../../auth/auth.js';
+import { Context } from '@/app/context/useContext';
 
 const RegisterModal = () => {
     const router = useRouter();
+    const {user} = useContext(Context);
     const registerModal = useRegisterModal();
     const loginModal = useLoginModal();
     const [isLoading, setIsLoading] = useState(false);
@@ -23,6 +25,15 @@ const RegisterModal = () => {
         registerModal.onClose();
         loginModal.onOpen();
     },[loginModal,registerModal])
+
+
+    useEffect(() => {
+        setFirstName('');
+        setLastName('');
+        setPassword('');
+        setEmail('');
+        setMessage('');
+    },[user])
 
     const handleOnSubmit = () => {
         if (firstName.trim() === '' || lastName.trim() === '' || password.trim() === ''|| email.trim() === '') {
