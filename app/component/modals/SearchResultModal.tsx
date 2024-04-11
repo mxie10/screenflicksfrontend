@@ -19,12 +19,12 @@ const SearchResultModal: React.FC<SearchResultModal> = (props) => {
 
   return (
     <div 
-      className={`relative mt-12 w-full ${searchResult.length > 0 ? 'h-5/12' : 'h-0'} bg-white z-50 shadow-md ${searchResult.length > 0 ? 'py-5' : ''} flex flex-row px-10`}
+      className={`relative mt-12 w-full ${searchResult.length > 0 ? 'h-5/12' : 'h-0'} bg-white z-50 shadow-md ${searchResult.length > 0 ? 'py-5' : ''} flex flex-row px-10 gap-2 overflow-scroll`}
       style={{ position: 'fixed' }}
     >
       {searchResult && searchResult.map((item: MovieCardType, index: any) => {
         return (
-          <div key={index}>
+          <div key={index} className=''>
             <MovieCard
               title={item.title}
               imageSrc={item.imageSrc}
