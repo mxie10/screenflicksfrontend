@@ -30,11 +30,12 @@ const menu = [
 
 interface NavBarProps  {
     setSearchParam:(value:string) => void;
+    searchParam:String;
 }
 
 const NavBar:React.FC<NavBarProps> = (props) => {
 
-    const {setSearchParam} = props;
+    const {searchParam,setSearchParam} = props;
 
     const { user,setUser } = useContext<any>(Context!);
 
@@ -83,7 +84,10 @@ const NavBar:React.FC<NavBarProps> = (props) => {
                         </div>
                     )
                 })}
-                <SearchBar setSearchParam = {setSearchParam}/>
+                <SearchBar 
+                    setSearchParam = {setSearchParam}
+                    searchParam = {searchParam}
+                />
             </div>
             {
                 user ?  

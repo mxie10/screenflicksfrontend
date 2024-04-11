@@ -65,7 +65,10 @@ const LayoutBody: React.FC<LayoutBodyProps> = ({ children }) => {
       <RegisterModal />
       <ToggleIcon />
       <SideBar />
-      <NavBar setSearchParam = {setSearchParam}/>
+      <NavBar 
+        setSearchParam = {setSearchParam}
+        searchParam = {searchParam}
+      />
       <SearchResultModal searchResult={searchResult}/>
       <div className="">
         {children}
